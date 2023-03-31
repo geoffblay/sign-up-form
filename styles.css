@@ -70,6 +70,8 @@ form>div {
     display: flex;
     flex-direction: column;
     padding: 5px 10px;
+    width: 50%;
+    min-width: 200px;
 }
 
 .form-2>div>input {
@@ -78,6 +80,10 @@ form>div {
     border-radius: 5px;
     border: 2px solid #b3b3cc;
     padding: 1px;
+}
+
+.form-2>div>input:invalid {
+    border: 2px solid red;
 }
 
 .form-3 {

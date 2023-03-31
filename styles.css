@@ -110,3 +110,11 @@ a {
 span {
     text-align: center;
 }
+
+*:focus {
+    outline: none;
+}
+
+input:focus {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
